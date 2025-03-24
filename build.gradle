@@ -1,4 +1,6 @@
 plugins {
+	id 'jacoco'
+	id 'io.qameta.allure' version '2.10.0'
     id 'java'
 }
 
@@ -7,6 +9,23 @@ version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+}
+
+jacoco {
+	toolVersion = "0.8.7"
+}
+
+jacocoTestReport {
+	reports {
+		html.required.set(true)
+		xml.required.set(true)
+		csv.required.set(false)
+	}
+}
+
+allure {
+	version = '2.10.0'
+	autoconfigure = true
 }
 
 dependencies {
@@ -23,5 +42,6 @@ dependencies {
 }
 
 test {
+	finalizedBy jacocoTestReport
     useJUnitPlatform()
 }
