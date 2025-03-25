@@ -1,0 +1,1 @@
+{"uuid":"67e02038-55b1-4825-a2ed-5d2d9ae211b8","name":"testGetUserLastSessionDate()","children":["ecf0d7e4-1980-4f05-a0d5-e773d04d5c68"],"befores":[{"name":"setUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1742893571380,"stop":1742893571380}],"afters":[],"start":1742893571378,"stop":1742893571385}

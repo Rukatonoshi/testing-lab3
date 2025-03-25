@@ -1,0 +1,181 @@
+[ {
+  "uid" : "47be375e508a754f",
+  "name" : "Тест получения общего времени активности",
+  "time" : {
+    "start" : 1742893415438,
+    "stop" : 1742893415457,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c13a00c37ad14d1",
+  "name" : "Тест записи сессии",
+  "time" : {
+    "start" : 1742893415411,
+    "stop" : 1742893415434,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9db523c9f5ecdef0",
+  "name" : "Тест регистрации без userName",
+  "time" : {
+    "start" : 1742893415097,
+    "stop" : 1742893415126,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40dac788d5b57872",
+  "name" : "testGetUserLastSessionDate()",
+  "time" : {
+    "start" : 1742893416933,
+    "stop" : 1742893416938,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43a7c3a02d85c075",
+  "name" : "testGetUserStatus_HighlyActive()",
+  "time" : {
+    "start" : 1742893416940,
+    "stop" : 1742893416943,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3a325c29214646b",
+  "name" : "Тест регистрации пользователя",
+  "time" : {
+    "start" : 1742893415385,
+    "stop" : 1742893415408,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e069a17150194fae",
+  "name" : "Тест получения метрик активности без userId",
+  "time" : {
+    "start" : 1742893415269,
+    "stop" : 1742893415286,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "baeb2f3e6c2d7728",
+  "name" : "testGetUserStatus_Active()",
+  "time" : {
+    "start" : 1742893415472,
+    "stop" : 1742893416907,
+    "duration" : 1435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c05c07fab47dd7bf",
+  "name" : "Тест записи сессии без loginTime",
+  "time" : {
+    "start" : 1742893415152,
+    "stop" : 1742893415177,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ead3f9b7824b53c",
+  "name" : "testGetUserLastSessionDate_NoSessions()",
+  "time" : {
+    "start" : 1742893416913,
+    "stop" : 1742893416924,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3151e29222244bad",
+  "name" : "Тест записи сессии без userId",
+  "time" : {
+    "start" : 1742893415129,
+    "stop" : 1742893415149,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d544a1525a87fce5",
+  "name" : "Тест получения общего времени активности без userId",
+  "time" : {
+    "start" : 1742893415208,
+    "stop" : 1742893415247,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7b864baeec74af6",
+  "name" : "Тест записи сессии с некорректным форматом даты",
+  "time" : {
+    "start" : 1742893415180,
+    "stop" : 1742893415205,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee4ed5b645ce30c",
+  "name" : "Тест получения метрик активности без month",
+  "time" : {
+    "start" : 1742893415288,
+    "stop" : 1742893415305,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2b2a1c42e022f4e",
+  "name" : "Тест получения метрик активности с несуществующим userId",
+  "time" : {
+    "start" : 1742893415308,
+    "stop" : 1742893415324,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69ee9c362914a65f",
+  "name" : "Тест регистрации без userId",
+  "time" : {
+    "start" : 1742893413011,
+    "stop" : 1742893414892,
+    "duration" : 1881
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18b8b6e4ffcb4bbc",
+  "name" : "Тест получения неактивных пользователей без days",
+  "time" : {
+    "start" : 1742893415252,
+    "stop" : 1742893415266,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bf0ca069c74336",
+  "name" : "testGetUserStatus_Inactive()",
+  "time" : {
+    "start" : 1742893416927,
+    "stop" : 1742893416930,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
