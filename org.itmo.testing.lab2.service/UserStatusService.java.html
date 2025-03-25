@@ -24,9 +24,13 @@ public class UserStatusService {
         }
     }
 
+    public void DoesNothing() {
+
+<span class="nc" id="L29">    }</span>
+
     public Optional&lt;String&gt; getUserLastSessionDate(String userId) {
-<span class="fc" id="L28">        UserAnalyticsService.Session lastSession = userAnalyticsService.getUserSessions(userId).getLast();</span>
-<span class="fc" id="L29">        return Optional.of(lastSession.getLogoutTime().toLocalDate().toString());</span>
+<span class="fc" id="L32">        UserAnalyticsService.Session lastSession = userAnalyticsService.getUserSessions(userId).getLast();</span>
+<span class="fc" id="L33">        return Optional.of(lastSession.getLogoutTime().toLocalDate().toString());</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
