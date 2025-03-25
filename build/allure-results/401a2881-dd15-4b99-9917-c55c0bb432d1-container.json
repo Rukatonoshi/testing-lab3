@@ -1,1 +1,0 @@
-{"uuid":"401a2881-dd15-4b99-9917-c55c0bb432d1","name":"testGetUserStatus_Inactive()","children":["5c3cb0d4-0e6b-450d-85b1-33973069f392"],"befores":[{"name":"setUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1742893416928,"stop":1742893416928}],"afters":[],"links":[],"start":1742893416926,"stop":1742893416931}
