@@ -48,3 +48,10 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: build/reports/jacoco/test/html
           publish_branch: jacoco_branch
+
+			- name: html to pdf
+			  uses: fifsky/html-to-pdf-action@master
+			  with:
+    		htmlFile: ./index.html
+    		outputFile: ./jacoco.pdf
+    		pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
