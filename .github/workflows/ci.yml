@@ -38,7 +38,13 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: |
-            build/reports/allure-report/allureReport
-            build/reports/jacoco
+          publish_dir: build/reports/allure-report/allureReport
+          publish_branch: gh-pages
+      
+      - name: Deploy Jacoco Report to GitHub Pages branch
+        if: github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/reports/jacoco
           publish_branch: gh-pages
