@@ -31,7 +31,7 @@ jobs:
           name: reports
           path: |
             build/reports/allure-report/allureReport
-            build/jacoco/test/html
+            build/reports/jacoco/test
   
       - name: Deploy Allure Report to GitHub Pages
         if: github.ref == 'refs/heads/master'
