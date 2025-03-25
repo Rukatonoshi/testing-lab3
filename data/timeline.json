@@ -1,0 +1,247 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "rukatonoshi-iv",
+    "children" : [ {
+      "name" : "616942@rukatonoshi-iv.Test worker(1)",
+      "children" : [ {
+        "name" : "Тест получения общего времени активности",
+        "uid" : "47be375e508a754f",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893415438,
+          "stop" : 1742893415457,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест записи сессии",
+        "uid" : "3c13a00c37ad14d1",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893415411,
+          "stop" : 1742893415434,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест регистрации без userName",
+        "uid" : "9db523c9f5ecdef0",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893415097,
+          "stop" : 1742893415126,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testGetUserLastSessionDate()",
+        "uid" : "40dac788d5b57872",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893416933,
+          "stop" : 1742893416938,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testGetUserStatus_HighlyActive()",
+        "uid" : "43a7c3a02d85c075",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893416940,
+          "stop" : 1742893416943,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест регистрации пользователя",
+        "uid" : "a3a325c29214646b",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893415385,
+          "stop" : 1742893415408,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест получения метрик активности без userId",
+        "uid" : "e069a17150194fae",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893415269,
+          "stop" : 1742893415286,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testGetUserStatus_Active()",
+        "uid" : "baeb2f3e6c2d7728",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893415472,
+          "stop" : 1742893416907,
+          "duration" : 1435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест записи сессии без loginTime",
+        "uid" : "c05c07fab47dd7bf",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893415152,
+          "stop" : 1742893415177,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testGetUserLastSessionDate_NoSessions()",
+        "uid" : "8ead3f9b7824b53c",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893416913,
+          "stop" : 1742893416924,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест записи сессии без userId",
+        "uid" : "3151e29222244bad",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893415129,
+          "stop" : 1742893415149,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест получения общего времени активности без userId",
+        "uid" : "d544a1525a87fce5",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893415208,
+          "stop" : 1742893415247,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест записи сессии с некорректным форматом даты",
+        "uid" : "d7b864baeec74af6",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893415180,
+          "stop" : 1742893415205,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест получения метрик активности без month",
+        "uid" : "ee4ed5b645ce30c",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893415288,
+          "stop" : 1742893415305,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест получения метрик активности с несуществующим userId",
+        "uid" : "b2b2a1c42e022f4e",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893415308,
+          "stop" : 1742893415324,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест регистрации без userId",
+        "uid" : "69ee9c362914a65f",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893413011,
+          "stop" : 1742893414892,
+          "duration" : 1881
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест получения неактивных пользователей без days",
+        "uid" : "18b8b6e4ffcb4bbc",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893415252,
+          "stop" : 1742893415266,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testGetUserStatus_Inactive()",
+        "uid" : "3bf0ca069c74336",
+        "parentUid" : "cdbfe5c755b84ae1f98a12a84622dd22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1742893416927,
+          "stop" : 1742893416930,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cdbfe5c755b84ae1f98a12a84622dd22"
+    } ],
+    "uid" : "c2df7c4641b8cb83e87a845573062633"
+  } ]
+}
