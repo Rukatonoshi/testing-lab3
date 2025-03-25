@@ -97,3 +97,6 @@ jobs:
       uses: github/codeql-action/analyze@v3
       with:
         category: "/language:${{matrix.language}}"
+
+    - name: Generate CodeQL Report
+      uses: awshole/codeql-report@v1.1
