@@ -24,6 +24,10 @@ public class UserStatusService {
         }
     }
 
+    public void DoesNothing() {
+
+    }
+
     public Optional<String> getUserLastSessionDate(String userId) {
         UserAnalyticsService.Session lastSession = userAnalyticsService.getUserSessions(userId).getLast();
         return Optional.of(lastSession.getLogoutTime().toLocalDate().toString());
